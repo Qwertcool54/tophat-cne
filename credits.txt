@@ -1,0 +1,29 @@
+Port Makers:
+Qwert (me) - make all port
+
+tophat team, that maked original build:
+infry
+data
+lex
+june
+headdzo
+rundown
+terdle
+funkypop
+dani
+ruby
+novasaur
+fidy
+suitman
+lemon
+riko
+yumii
+greg
+croccy poo 
+
+special thanks:
+usb_port_3 - maked 4:3 script
+itsljcool - maked "change character" event (LJ Events-Pack CNE)
+fourlion4l - extended play animation event
+sillyborja - targetOffset camera follow script
+
