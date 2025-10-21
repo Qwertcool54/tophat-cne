@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bg/shop/" name="sg" zoom="3">
+	<sprite type="none" sprite="bg" name="shop"/>
+	<sprite x="98.6651796570068" sprite="speaker" y="171.542868914406" type="beat" angle="1" name="speaker"/>
+	<anim loop="false" name="l" anim="dl" fps="8"/>
+	<anim loop="false" name="r" anim="dr" fps="8"/>
+	<girlfriend camxoffset="110" spacingx="0"/>
+	<dad camxoffset="-200" x="240" spacingx="0" camyoffset="50" y="110"/>
+	<boyfriend camxoffset="100" x="123" spacingx="0" camyoffset="75" y="80"/>
+</stage>

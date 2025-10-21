@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="box.png">
+<SubTexture name="idle0000" x="0" y="0" width="29" height="28" frameX="0" frameY="0" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0000" x="29" y="0" width="29" height="28" frameX="0" frameY="0" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0001" x="29" y="0" width="29" height="28" frameX="0" frameY="0" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0002" x="58" y="0" width="29" height="23" frameX="0" frameY="-3" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0003" x="0" y="55" width="29" height="15" frameX="0" frameY="-8" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0004" x="58" y="23" width="29" height="23" frameX="0" frameY="-3" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0005" x="0" y="28" width="29" height="27" frameX="0" frameY="-1" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0006" x="0" y="28" width="29" height="27" frameX="0" frameY="-1" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0007" x="29" y="28" width="29" height="27" frameX="0" frameY="-1" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0008" x="29" y="28" width="29" height="27" frameX="0" frameY="-1" frameWidth="27" frameHeight="26" />
+<SubTexture name="spin0009" x="0" y="0" width="29" height="28" frameX="0" frameY="0" frameWidth="27" frameHeight="26" />
+</TextureAtlas>

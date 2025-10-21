@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="-150" startCamPosY="60" folder="stages/bg/" zoom="3" name="th">
+	<sprite x="659.884462171216" sprite="sky" y="410.75178316803" name="sky"/>
+	<sprite x="632.552373873069" sprite="cloud" y="411.827475540873" name="loudc"/>
+	<sprite x="699.893671910477" sprite="sun" y="410.828009194576" scalex="0.999999999967605" name="sun"/>
+	<sprite x="453.008729811027" sprite="hills" y="519.714858983297" name="hills"/>
+	<sprite x="662" sprite="shop" y="418" scaley="1.09" name="shop"/>
+	<gf x="650.666666666667" scroll="1" y="828.666666666666"/>
+	<dad camxoffset="-121" x="774" camyoffset="-60" y="523"/>
+	<bf camxoffset="60" x="887" spacingx="0" camyoffset="55" y="540"/>
+</stage>
