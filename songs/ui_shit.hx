@@ -12,6 +12,8 @@ function postCreate() {
     for (spr in [healthBarBG, scoreTxt, missesTxt, healthBar, iconP1, iconP2]) {
         remove(spr); spr.visible = spr.active = spr.exists = false;
     }
+    accuracyTxt.x = 450;
+    accuracyTxt.y = 650;
 
 }
 
