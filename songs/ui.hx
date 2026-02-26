@@ -2,8 +2,8 @@ import flixel.math.FlxRect;
 import flixel.FlxSprite;
 
 static var tophatHpBG:FlxSprite;
-static var tophatHpBarOp:FlxSprite; // оппонент
-static var tophatHpBarBF:FlxSprite; // игрок
+static var tophatHpBarOp:FlxSprite; 
+static var tophatHpBarBF:FlxSprite; 
 static var tophatIconP1:FlxSprite;
 static var tophatIconP2:FlxSprite;
 static var rankSprite:FlxSprite;
@@ -128,7 +128,7 @@ function postCreate() {
         rankSprite.animation.addByPrefix(rank + "i", rank + "i", 8, false);
         rankSprite.animation.addByPrefix(rank + "s", rank + "s", 8, false);
     }
-rankSprite.animation.play("qi", false); // статичный ? по умолчанию
+rankSprite.animation.play("qi", false); 
     rankSprite.animation.play("qs", false);
     rankSprite.updateHitbox();
     rankSprite.scrollFactor.set();
@@ -200,7 +200,7 @@ function update(elapsed:Float) {
             tophatIconP1.animation.play("idle");
     }
 
-    // Анимации Tophat иконки
+    
     if (healthPercent > 65) {
         if (tophatIconP2.animation.curAnim.name == "idle")
             tophatIconP2.animation.play("itol", true);
@@ -217,4 +217,4 @@ function update(elapsed:Float) {
         else if (tophatIconP2.animation.curAnim.name == "outol" && tophatIconP2.animation.curAnim.finished)
             tophatIconP2.animation.play("idle", true);
     }
-} // закрывающая скобка update
+} 
