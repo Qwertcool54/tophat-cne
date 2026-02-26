@@ -32,9 +32,4 @@ public static function windowShit(newWidth:Int, newHeight:Int, scale:Float = 0.9
     window.y = Capabilities.screenResolutionY/2 - window.height/2;
 }
 
-function postStateSwitch() {
-Framerate.fpsCounter.fpsNum.defaultTextFormat = new TextFormat(Paths.getFontName(Paths.font('Nintendo-DS-BIOS.ttf')), size, -1);
 
-//framerate label (FPS)
-Framerate.fpsCounter.fpsLabel.defaultTextFormat = new TextFormat(Paths.getFontName(Paths.font('Nintendo-DS-BIOS.ttf')), size, -1);
-}
