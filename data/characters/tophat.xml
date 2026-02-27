@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="tophat" icon="tophat" color="#ffffff" y="20" antialiasing="false" camx="-20" camy="60" holdTime="6.1">
-	<anim name="idle" anim="i" fps="12"/>
-	<anim name="singLEFT" anim="l" x="1" y="1" fps="12"/>
-	<anim name="singDOWN" anim="d" x="3" y="1" fps="12"/>
-	<anim name="singUP" anim="u" x="1" y="1" fps="12"/>
-	<anim name="singRIGHT" anim="r" x="4" y="-2" fps="12"/>
-</character>

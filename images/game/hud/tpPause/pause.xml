@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pause.png">
+<SubTexture name="ex0000" x="119" y="0" width="124" height="194" frameX="-47" frameY="-3" frameWidth="216" frameHeight="200" />
+<SubTexture name="op0000" x="243" y="0" width="124" height="194" frameX="-47" frameY="-3" frameWidth="216" frameHeight="200" />
+<SubTexture name="re0000" x="367" y="0" width="124" height="194" frameX="-47" frameY="-3" frameWidth="216" frameHeight="200" />
+<SubTexture name="un0000" x="0" y="200" width="124" height="194" frameX="-47" frameY="-3" frameWidth="216" frameHeight="200" />
+<SubTexture name="open0002" x="124" y="200" width="124" height="194" frameX="-47" frameY="-3" frameWidth="216" frameHeight="200" />
+<SubTexture name="open0001" x="0" y="0" width="119" height="200" frameX="-49" frameY="-1" frameWidth="216" frameHeight="200" />
+<SubTexture name="open0000" x="248" y="200" width="216" height="123" frameX="-1" frameY="-18" frameWidth="216" frameHeight="200" />
+</TextureAtlas>

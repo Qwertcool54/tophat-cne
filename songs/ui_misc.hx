@@ -37,3 +37,26 @@ function onStrumCreation(event) {
     strum.antialiasing = false;
 }
 
+function onCountdown(event) {
+    event.antialiasing = false;
+    event.scale = 2;
+    
+    event.soundPath = switch(event.swagCounter) {
+        case 0: 'tophat/three';
+        case 1: 'tophat/two';
+        case 2: 'tophat/one';
+        case 3: 'tophat/go';
+        default: null;
+    };
+    
+    event.spritePath = switch(event.swagCounter) {
+        case 0: null;
+        case 1: 'game/hud/two';
+        case 2: 'game/hud/one';
+        case 3: 'game/hud/go';
+        default: null;
+    };
+}
+
+camGame.width = camHUD.width = 1024;
+camGame.height = camHUD.height = 768;

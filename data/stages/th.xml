@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage startCamPosX="-150" startCamPosY="60" folder="stages/bg/" zoom="3" name="th">
+<stage startCamPosX="100" startCamPosY="200" folder="stages/bg/" zoom="3" name="th">
 	<sprite x="659.884462171216" sprite="sky" y="409.350289142607" scaley="0.98934225075724" name="sky"/>
 	<sprite x="633.259480654256" sprite="cloud" y="411.827475540873" scalex="0.998378195455994" name="loudc"/>
 	<sprite x="916.329366842164" sprite="sun" y="502.000554678606" scalex="0.999999999967605" name="sun"/>

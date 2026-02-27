@@ -1,7 +1,0 @@
-<!DOCTYPE codename-engine-stage>
-<stage folder="stages/ancientbg/" name="ancientbg" zoom="1.2">
-	<sprite x="-25" sprite="topbg" y="-150" type="none" name="topbg"/>
-	<girlfriend/>
-	<dad x="400" y="75"/>
-	<boyfriend/>
-</stage>
