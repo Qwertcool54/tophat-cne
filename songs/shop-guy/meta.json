@@ -3,9 +3,9 @@
 	"difficulties": [
 		"normal"
 	],
-	"icon": "face",
+	"icon": "gf",
 	"coopAllowed": false,
-	"color": "#9271FD",
+	"color": "#A5004D",
 	"stepsPerBeat": 4,
 	"displayName": "shop-guy",
 	"needsVoices": true,

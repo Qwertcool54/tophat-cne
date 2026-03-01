@@ -32,4 +32,3 @@ public static function windowShit(newWidth:Int, newHeight:Int, scale:Float = 0.9
     window.y = Capabilities.screenResolutionY/2 - window.height/2;
 }
 
-

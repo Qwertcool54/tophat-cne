@@ -1,11 +1,12 @@
 {
+	"customValues": {},
+	"color": "#A5004D",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"normal"
 	],
-	"icon": "face",
+	"icon": "gf",
 	"coopAllowed": false,
-	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "tophat-guy",
 	"needsVoices": true,

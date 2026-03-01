@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="song.png">
+<SubTexture name="d0000" x="63" y="51" width="57" height="42" frameX="-5" frameY="-6" frameWidth="64" frameHeight="51" />
+<SubTexture name="s0000" x="64" y="0" width="62" height="49" frameX="-3" frameY="-2" frameWidth="64" frameHeight="51" />
+<SubTexture name="s0001" x="0" y="0" width="64" height="51" frameX="-1" frameY="-1" frameWidth="64" frameHeight="51" />
+<SubTexture name="s0002" x="0" y="51" width="63" height="48" frameX="-1" frameY="-2" frameWidth="64" frameHeight="51" />
+</TextureAtlas>
