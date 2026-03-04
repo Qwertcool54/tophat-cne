@@ -10,3 +10,5 @@ function postCreate(){
 
  }
 }
+
+importScript("data/scripts/ui_2025");

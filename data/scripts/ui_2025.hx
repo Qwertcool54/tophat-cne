@@ -28,12 +28,12 @@ function onPlayerHit(e)
 }
 
 function create() {
-    bL = new FlxSprite().loadGraphic(Paths.image('game/hud/shadow'));
+    bL = new FlxSprite().loadGraphic(Paths.image('game/hud//2025/shadow'));
     bL.scale.set(3, 3);
     bL.updateHitbox();
     bL.cameras = [camHUD];
 
-    bR = new FlxSprite().loadGraphic(Paths.image('game/hud/shadow'));
+    bR = new FlxSprite().loadGraphic(Paths.image('game/hud/2025/shadow'));
     bR.scale.set(3, 3);
     bR.updateHitbox();
     bR.cameras = [camHUD];
@@ -51,7 +51,7 @@ function postCreate() {
 
    
     tophatHpBG = new FlxSprite(barX, barY);
-    tophatHpBG.loadGraphic(Paths.image("game/hud/hpbar/bg"));
+    tophatHpBG.loadGraphic(Paths.image("game/hud/2025/hpbar/bg"));
     tophatHpBG.setGraphicSize(Std.int(barW), Std.int(barH));
     tophatHpBG.updateHitbox();
     tophatHpBG.scrollFactor.set();
@@ -61,7 +61,7 @@ function postCreate() {
     add(tophatHpBG);
 
     tophatHpBarOp = new FlxSprite(barX, barY);
-    tophatHpBarOp.loadGraphic(Paths.image("game/hud/hpbar/opponent"));
+    tophatHpBarOp.loadGraphic(Paths.image("game/hud/2025/hpbar/opponent"));
     tophatHpBarOp.setGraphicSize(Std.int(barW), Std.int(barH));
     tophatHpBarOp.updateHitbox();
     tophatHpBarOp.scrollFactor.set();
@@ -71,7 +71,7 @@ function postCreate() {
     add(tophatHpBarOp);
 
     tophatHpBarBF = new FlxSprite(barX, barY);
-    tophatHpBarBF.loadGraphic(Paths.image("game/hud/hpbar/player"));
+    tophatHpBarBF.loadGraphic(Paths.image("game/hud/2025/hpbar/player"));
     tophatHpBarBF.setGraphicSize(Std.int(barW), Std.int(barH));
     tophatHpBarBF.updateHitbox();
     tophatHpBarBF.scrollFactor.set();
@@ -81,7 +81,7 @@ function postCreate() {
     add(tophatHpBarBF);
     
     tophatIconP2 = new FlxSprite();
-    tophatIconP2.frames = Paths.getSparrowAtlas("game/hud/tophatcon/tophatcon");
+    tophatIconP2.frames = Paths.getSparrowAtlas("game/hud/2025/tophatcon/tophatcon");
     tophatIconP2.animation.addByPrefix("idle", "i0", 6, true);
     tophatIconP2.animation.addByPrefix("losing", "l0", 6, true);
     tophatIconP2.animation.addByPrefix("itol", "itol", 6, false);
@@ -97,7 +97,7 @@ function postCreate() {
 
     
     tophatIconP1 = new FlxSprite();
-    tophatIconP1.frames = Paths.getSparrowAtlas("game/hud/bfcon/bfcon");
+    tophatIconP1.frames = Paths.getSparrowAtlas("game/hud/2025/bfcon/bfcon");
     tophatIconP1.animation.addByPrefix("idle", "i0", 6, false);
     tophatIconP1.animation.addByPrefix("winning", "w", 6, true);
     tophatIconP1.animation.addByPrefix("losing", "l0", 6, true);
@@ -123,7 +123,7 @@ function postCreate() {
     insert(members.indexOf(strumLines), bR);
     
     rankSprite = new FlxSprite();
-    rankSprite.frames = Paths.getSparrowAtlas("game/hud/rankbox");
+    rankSprite.frames = Paths.getSparrowAtlas("game/hud/2025/rankbox");
     for (rank in ["s", "a", "b", "c", "d", "f", "p", "q"]) {
         rankSprite.animation.addByPrefix(rank + "i", rank + "i", 8, false);
         rankSprite.animation.addByPrefix(rank + "s", rank + "s", 8, false);
@@ -218,3 +218,65 @@ function update(elapsed:Float) {
             tophatIconP2.animation.play("idle", true);
     }
 }
+
+
+function onNoteCreation(event) {
+    event.cancel();
+
+    var note = event.note;
+    var strumID = event.strumID;
+
+    if (event.note.isSustainNote) {
+    note.loadGraphic(Paths.image("game/notes/pixel/notesENDS"), true, 14, 14);
+    var maxCol = 4;
+        note.animation.add("hold", [strumID % maxCol]);
+        note.animation.add("holdend", [maxCol + strumID % maxCol]);
+    } else {
+        note.loadGraphic(Paths.image("game/notes/pixel/notes"), true, 34, 34);
+        var maxCol = Math.floor(note.graphic.width / 34);
+        note.animation.add("scroll", [maxCol + strumID % maxCol]);
+    }
+
+    note.scale.set(3, 3);
+    note.updateHitbox();
+    note.antialiasing = false;
+}
+
+function onStrumCreation(event) {
+    event.cancel();
+
+    var strum = event.strum;
+    strum.loadGraphic(Paths.image("game/notes/pixel/notes"), true, 34, 34);
+    var maxCol = 4;
+    var strumID = event.strumID % maxCol;
+
+    strum.animation.add("static", [strumID]);
+    strum.animation.add("pressed", [maxCol + strumID, (maxCol * 2) + strumID], 12, false);
+    strum.animation.add("confirm", [(maxCol * 3) + strumID, (maxCol * 4) + strumID], 24, false);
+
+    strum.scale.set(3, 3);
+    strum.updateHitbox();
+    strum.antialiasing = false;
+}
+
+function onCountdown(event) {
+    event.antialiasing = false;
+    event.scale = 2;
+    
+    event.soundPath = switch(event.swagCounter) {
+        case 0: 'tophat/three';
+        case 1: 'tophat/two';
+        case 2: 'tophat/one';
+        case 3: 'tophat/go';
+        default: null;
+    };
+    
+    event.spritePath = switch(event.swagCounter) {
+        case 0: null;
+        case 1: 'game/hud/two';
+        case 2: 'game/hud/one';
+        case 3: 'game/hud/go';
+        default: null;
+    };
+}
+

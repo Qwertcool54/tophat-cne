@@ -34,3 +34,5 @@ function onDadHit(NoteHitEvent){
         health = health -= 0.007;
     }
 }
+
+importScript("data/scripts/ui_2025");

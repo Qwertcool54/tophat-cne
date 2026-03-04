@@ -26,4 +26,6 @@ usb_port_3 - maked 4:3 script
 itsljcool - maked "change character" event (LJ Events-Pack CNE)
 fourlion4l - extended play animation event
 sillyborja - targetOffset camera follow script
+dustin' team - some code for 2024's HUD
+(some deleted user) - middlescroll script (that used in 2024 hud)
 
