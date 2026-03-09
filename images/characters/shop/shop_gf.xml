@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="shop_gf.png">
+<SubTexture name="idle0000" x="253" y="358" width="87" height="98" frameX="-5" frameY="-43" frameWidth="91" frameHeight="143" />
+<SubTexture name="idle0001" x="164" y="358" width="89" height="100" frameX="-4" frameY="-42" frameWidth="91" frameHeight="143" />
+<SubTexture name="idle0002" x="0" y="358" width="82" height="103" frameX="-3" frameY="-39" frameWidth="91" frameHeight="143" />
+<SubTexture name="idle0003" x="446" y="0" width="77" height="105" frameX="-5" frameY="-37" frameWidth="91" frameHeight="143" />
+<SubTexture name="idle0004" x="297" y="0" width="75" height="107" frameX="-7" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="idle0005" x="297" y="0" width="75" height="107" frameX="-7" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="u0000" x="221" y="0" width="76" height="110" frameX="-6" frameY="-32" frameWidth="91" frameHeight="143" />
+<SubTexture name="u0001" x="0" y="142" width="74" height="109" frameX="-7" frameY="-33" frameWidth="91" frameHeight="143" />
+<SubTexture name="r0000" x="74" y="142" width="70" height="108" frameX="-11" frameY="-34" frameWidth="91" frameHeight="143" />
+<SubTexture name="r0001" x="372" y="214" width="74" height="106" frameX="-9" frameY="-36" frameWidth="91" frameHeight="143" />
+<SubTexture name="l0000" x="0" y="251" width="79" height="107" frameX="-6" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="l0001" x="144" y="142" width="81" height="108" frameX="-3" frameY="-34" frameWidth="91" frameHeight="143" />
+<SubTexture name="d0000" x="82" y="358" width="82" height="101" frameX="-4" frameY="-42" frameWidth="91" frameHeight="143" />
+<SubTexture name="d0001" x="446" y="105" width="74" height="102" frameX="-6" frameY="-41" frameWidth="91" frameHeight="143" />
+<SubTexture name="m0000" x="79" y="251" width="77" height="107" frameX="-7" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0000" x="297" y="107" width="75" height="107" frameX="-7" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0001" x="156" y="251" width="75" height="107" frameX="-7" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0002" x="231" y="251" width="74" height="107" frameX="-8" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0003" x="372" y="0" width="74" height="107" frameX="-9" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0004" x="372" y="0" width="74" height="107" frameX="-9" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0005" x="372" y="107" width="74" height="107" frameX="-10" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0006" x="372" y="107" width="74" height="107" frameX="-10" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="think0007" x="372" y="107" width="74" height="107" frameX="-10" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0000" x="372" y="107" width="74" height="107" frameX="-10" frameY="-35" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0001" x="147" y="0" width="74" height="137" frameX="-10" frameY="-5" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0002" x="0" y="0" width="75" height="142" frameX="-10" frameY="0" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0003" x="75" y="0" width="72" height="142" frameX="-10" frameY="0" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0004" x="75" y="0" width="72" height="142" frameX="-10" frameY="0" frameWidth="91" frameHeight="143" />
+<SubTexture name="oh yeah0005" x="75" y="0" width="72" height="142" frameX="-10" frameY="0" frameWidth="91" frameHeight="143" />
+</TextureAtlas>

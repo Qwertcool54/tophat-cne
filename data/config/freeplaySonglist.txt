@@ -2,3 +2,4 @@ tophat-guy
 shop-guy
 devil-guy
 business-guy
+cool-kid

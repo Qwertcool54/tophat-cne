@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bg/cool/" name="coolkid" zoom="3">
+	<sprite type="none" antialiasing="false" sprite="coolbg1" name="bg"/>
+	<sprite type="none" antialiasing="false" sprite="coolFG1" name="bg1"/>
+	<girlfriend/>
+	<dad camxoffset="-100" x="70" camyoffset="50" y="55"/>
+	<boyfriend camxoffset="30" x="220" camyoffset="50" y="75"/>
+</stage>

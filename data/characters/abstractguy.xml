@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="intangible/abstractguy" icon="face" color="#a1a1a1" x="-150" y="20" antialiasing="false" camx="-220" camy="-150" scale="1.7">
+	<anim name="singDOWN" anim="down" x="-17.647058823529413" y="-100" fps="12"/>
+	<anim name="singUP" anim="up" x="35.294117647058826" y="-35.294117647058826" fps="12"/>
+	<anim name="singLEFT" anim="left" x="5.882352941176471" y="-35.294117647058826" fps="12"/>
+	<anim name="singRIGHT" anim="right" x="-52.94117647058824" y="-87.64705882352942" fps="12"/>
+	<anim name="idle" anim="idle" fps="12" loop="true"/>
+</character>

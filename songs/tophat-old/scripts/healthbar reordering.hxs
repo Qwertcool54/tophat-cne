@@ -1,0 +1,9 @@
+var didThatYet:Bool = false;
+
+function postUpdate(elapsed:Float) {
+    if (healthBar != null && !didThatYet) {
+        remove(healthBarBG);
+        insert(members.indexOf(healthBar) + 1, healthBarBG);
+        didThatYet = true;
+    }
+}

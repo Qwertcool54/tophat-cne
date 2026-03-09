@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="cool/kewl_kid" antialiasing="false" flipX="true" isPlayer="true" icon="face" color="#A1B5E3" holdTime="6.1">
+	<anim name="idle" anim="idle" x="-1" fps="4" loop="true"/>
+	<anim name="singLEFT" anim="left" fps="8"/>
+	<anim name="singDOWN" anim="down" fps="8"/>
+	<anim name="singUP" anim="up" fps="8"/>
+	<anim name="singRIGHT" anim="right" fps="8"/>
+</character>

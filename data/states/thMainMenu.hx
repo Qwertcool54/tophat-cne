@@ -9,7 +9,7 @@ import flixel.input.mouse.FlxMouseEvent;
 
 var hour = Std.int(Sys.time() / 3600) % 24;
 var timeOfDay = (hour >= 5 && hour < 12) ? "day" : (hour >= 12 && hour < 19) ? "afternoon" : "night";
-var lerp:Float = 1.2;
+var lerp:Float = 0.6;
 
 var bg = new FlxSprite();
 var table = new FlxSprite();
@@ -111,8 +111,13 @@ add(hoverText);
 
 
 function update(elapsed) {
-    var camOffsetX:Float = (FlxG.mouse.x - FlxG.width / 2) * 0.15 * lerp;
-    var camOffsetY:Float = (FlxG.mouse.y - FlxG.height / 2) * 0.15 * lerp;
+    if (FlxG.keys.justPressed.O) {
+        PlayState.loadSong("tophat-old", "normal");
+        FlxG.switchState(new PlayState());
+    }
+
+    var camOffsetX:Float = (FlxG.mouse.x - FlxG.width / 2) * 0.05 * lerp;
+    var camOffsetY:Float = (FlxG.mouse.y - FlxG.height / 2) * 0.05 * lerp;
     FlxG.camera.scroll.x = camOffsetX;
     FlxG.camera.scroll.y = camOffsetY;
 
@@ -188,6 +193,8 @@ function update(elapsed) {
         persistentDraw = true;
         openSubState(new EditorPicker());
     }
+
+
 
     if (isDialogueOpen) {
         if (currentText.length < fullText.length) {

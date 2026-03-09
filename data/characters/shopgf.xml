@@ -1,9 +1,15 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="gfbigbutt" antialiasing="false" flipX="true" isPlayer="true" icon="face" color="#A1A1A1">
-	<anim name="danceLeft" anim="il" fps="8"/>
-	<anim name="danceRight" anim="ir" fps="8"/>
-	<anim name="singLEFT" anim="l" fps="10"/>
-	<anim name="singDOWN" anim="d" fps="10"/>
-	<anim name="singUP" anim="u" fps="10"/>
-	<anim name="singRIGHT" anim="r" fps="10"/>
+<character sprite="shop/shop_gf" antialiasing="false" flipX="true" isPlayer="true" icon="face" color="#4D1313" holdTime="6.1">
+	<anim name="idle" anim="idle" fps="8"/>
+	<anim name="singLEFT" anim="l" fps="8"/>
+	<anim name="singDOWN" anim="d" fps="8"/>
+	<anim name="singUP" anim="u" fps="8"/>
+	<anim name="singRIGHT" anim="r" fps="8"/>
+	<anim name="singRIGHTmiss" anim="m" fps="8" indices="0,0,0,0,0,0,0,0"/>
+	<anim name="singLEFTmiss" anim="m" fps="8" indices="0,0,0,0,0,0,0,0"/>
+	<anim name="singDOWNmiss" anim="m" fps="8" indices="0,0,0,0,0,0,0,0"/>
+	<anim name="singUPmiss" anim="m" fps="8" indices="0,0,0,0,0,0,0,0"/>
+	<anim name="thinktrans" anim="think" fps="8"/>
+	<anim name="thinking" anim="think" fps="8" loop="true" indices="7,7,7,7"/>
+	<anim name="idea" anim="oh" fps="8"/>
 </character>

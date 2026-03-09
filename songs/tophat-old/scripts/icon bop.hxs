@@ -1,0 +1,18 @@
+import funkin.backend.system.Flags;
+import funkin.backend.utils.CoolUtil;
+
+function postCreate() {
+    for (icon in iconArray) {
+        icon.updateBump = () -> {
+            var iconLerp = Flags.ICON_LERP / 2;
+            icon.scale.set(CoolUtil.fpsLerp(icon.scale.x, icon.defaultScale, iconLerp), CoolUtil.fpsLerp(icon.scale.y, icon.defaultScale, iconLerp));
+            icon.updateHitbox();
+        };
+    }
+}
+
+function postUpdate() {
+    for (icon in iconArray) {
+        icon.offset.y = (downscroll) ? (icon.frameHeight - icon.height) : 0;
+    }
+}

@@ -47,6 +47,7 @@ door.y = 539;
 door.x = 460;
 door.scale.set(2, 2);
 clouds.scale.set(2, 2);
+FlxG.camera.zoom = 1.45;
 
 function update(elapsed) {
     if (canPress && controls.ACCEPT && door.animation.curAnim != null && door.animation.curAnim.name == "close") {

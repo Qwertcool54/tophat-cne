@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="160" y="-510" sprite="hood/hoodG" scale="0.7" antialiasing="false" flipX="true" camx="-180" camy="160" isPlayer="true" icon="face" color="#A1A1A1" holdTime="6.1">
+	<anim name="singLEFT" anim="Left" x="-14.29" fps="8"/>
+	<anim name="singDOWN" anim="Down" fps="8"/>
+	<anim name="singUP" anim="Idle" fps="8" indices="8,9"/>
+	<anim name="singRIGHT" anim="Right" fps="8"/>
+	<anim name="idle" anim="Idle" fps="6" indices="0..7"/>
+</character>

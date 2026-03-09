@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="P1glitchtriangle.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="789" width="1018" height="980" frameX="-287" frameY="-102" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0001" x="3807" y="0" width="753" height="957" frameX="-371" frameY="-113" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0002" x="0" y="2580" width="899" height="943" frameX="-412" frameY="-139" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="idle0003" x="3807" y="957" width="753" height="957" frameX="-371" frameY="-113" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="up0000" x="3001" y="0" width="806" height="1066" frameX="-367" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="up0001" x="3001" y="1066" width="722" height="1046" frameX="-466" frameY="-20" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="down0000" x="1760" y="0" width="1241" height="803" frameX="-304" frameY="-275" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="down0001" x="1943" y="1769" width="905" height="756" frameX="-450" frameY="-268" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="right0000" x="0" y="0" width="1760" height="789" frameX="-162" frameY="-246" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="right0001" x="1760" y="803" width="1111" height="884" frameX="-374" frameY="-166" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="left0000" x="0" y="1769" width="1078" height="811" frameX="-140" frameY="-222" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="left0001" x="1078" y="1769" width="865" height="792" frameX="-291" frameY="-234" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

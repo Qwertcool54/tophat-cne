@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bg/tp-old/" name="th-alt" zoom="3.1">
+	<girlfriend alpha="0"/>
+	<dad camxoffset="-100" x="110" camyoffset="75" y="90"/>
+	<boyfriend camxoffset="50" x="200" camyoffset="50" y="111"/>
+</stage>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="supercool.png" width="1061" height="99">
+	<SubTexture name="i100000" x="386" y="0" width="40" height="86" frameX="-29" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i100001" x="436" y="0" width="40" height="86" frameX="-29" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i100002" x="386" y="0" width="40" height="86" frameX="-29" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i100003" x="436" y="0" width="40" height="86" frameX="-29" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="r100000" x="217" y="0" width="65" height="85" frameX="-47" frameY="-20" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="r100001" x="144" y="0" width="63" height="80" frameX="-47" frameY="-25" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="l100000" x="888" y="0" width="68" height="88" frameX="-11" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="l100001" x="815" y="0" width="63" height="87" frameX="-15" frameY="-20" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="d100000" x="0" y="0" width="62" height="68" frameX="-27" frameY="-34" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="d100001" x="72" y="0" width="62" height="74" frameX="-27" frameY="-28" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="u100000" x="966" y="0" width="44" height="95" frameX="-25" frameY="-6" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="u100001" x="1020" y="0" width="41" height="99" frameX="-27" frameY="-8" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i200000" x="486" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i200001" x="486" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i200002" x="486" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="i200003" x="486" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="l200000" x="533" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="l200001" x="580" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="r200000" x="627" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="r200001" x="674" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="u200000" x="721" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="u200001" x="768" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="d200000" x="292" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+	<SubTexture name="d200001" x="339" y="0" width="37" height="86" frameX="-32" frameY="-18" frameWidth="118" frameHeight="116"/>
+</TextureAtlas>

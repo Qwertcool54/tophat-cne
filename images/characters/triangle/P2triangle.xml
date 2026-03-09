@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="P2triangle.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle 0000" x="2013" y="0" width="971" height="948" frameX="-593" frameY="-107" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="left0000" x="1854" y="1989" width="908" height="830" frameX="-1014" frameY="-238" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="left0001" x="939" y="1989" width="915" height="885" frameX="-987" frameY="-192" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="right 0000" x="0" y="0" width="1043" height="976" frameX="-159" frameY="-83" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="right 0001" x="1043" y="0" width="970" height="966" frameX="-285" frameY="-82" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="down 0000" x="0" y="1989" width="939" height="907" frameX="-612" frameY="-175" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="down 0001" x="2013" y="948" width="927" height="938" frameX="-594" frameY="-137" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="up 0000" x="921" y="976" width="938" height="983" frameX="-457" frameY="2" frameWidth="1920" frameHeight="1080"/>
+	<SubTexture name="up 0001" x="0" y="976" width="921" height="1013" frameX="-480" frameY="2" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>

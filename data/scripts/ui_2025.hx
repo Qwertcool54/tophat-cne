@@ -28,7 +28,7 @@ function onPlayerHit(e)
 }
 
 function create() {
-    bL = new FlxSprite().loadGraphic(Paths.image('game/hud//2025/shadow'));
+    bL = new FlxSprite().loadGraphic(Paths.image('game/hud/2025/shadow'));
     bL.scale.set(3, 3);
     bL.updateHitbox();
     bL.cameras = [camHUD];
@@ -146,7 +146,7 @@ var curRankAnim:String = "q";
 function update(elapsed:Float) {
     if (tophatHpBarBF == null) return;
 
-    lerpedHealth = lerpedHealth + (Math.min(health, maxHealth) - lerpedHealth) * 0.25;
+    lerpedHealth = lerpedHealth + (Math.min(health, maxHealth) - lerpedHealth) * 0.05;
     healthPercent = (lerpedHealth / maxHealth) * 100;
 
     
@@ -219,7 +219,6 @@ function update(elapsed:Float) {
     }
 }
 
-
 function onNoteCreation(event) {
     event.cancel();
 
@@ -280,3 +279,5 @@ function onCountdown(event) {
     };
 }
 
+camGame.width = camHUD.width = 1024;
+camGame.height = camHUD.height = 768;

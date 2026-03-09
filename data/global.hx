@@ -1,11 +1,9 @@
 import funkin.backend.utils.ShaderResizeFix;
 import Sys;
 import openfl.system.Capabilities;
-import funkin.backend.system.framerate.Framerate;
-import openfl.text.TextFormat;
 
 function new() {
-    windowShit(1024, 768, 0.9);
+    windowShit(1054, 800, 0.9);
     FlxG.stage.window.resizable = false;
 }
 
@@ -13,13 +11,13 @@ function destroy()
     windowShit(1280, 720);
 
 function postStateSwitch()
-    windowShit(1024, 768, 0.9);
+    windowShit(1054, 800, 0.9);
 
 var winWidth = Math.floor(Capabilities.screenResolutionX * (3 / 4)) > Capabilities.screenResolutionY ? Math.floor(Capabilities.screenResolutionY * (4 / 3)) : Capabilitities.screenResolutionX;
 var winHeight = Math.floor(Capabilities.screenResolutionX * (3 / 4)) > Capabilities.screenResolutionY ? Capabilities.screenResolutionY : Math.floor(Capabilities.screenResolutionX * (3 / 4));
 
 public static function windowShit(newWidth:Int, newHeight:Int, scale:Float = 0.9){
-    if(newWidth == 1024 && newHeight == 768)
+    if(newWidth == 1054 && newHeight == 800)
         FlxG.resizeWindow(winWidth * scale, winHeight * scale);
     else
         FlxG.resizeWindow(newWidth, newHeight);
@@ -31,4 +29,3 @@ public static function windowShit(newWidth:Int, newHeight:Int, scale:Float = 0.9
     window.x = Capabilities.screenResolutionX/2 - window.width/2;
     window.y = Capabilities.screenResolutionY/2 - window.height/2;
 }
-
