@@ -34,4 +34,4 @@ dustin' team - some code for 2024's HUD
 (some deleted user) - middlescroll script (that used in 2024 hud)
 itsbobby.2 - creator of psych hud
 Claude (AI) - assisted with most code
-
+vs hyp remastered - the mod where I got the FPS counter from
