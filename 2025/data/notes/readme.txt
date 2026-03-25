@@ -1,0 +1,1 @@
+Note specific scripts go here, you know in case you want to make your shitty instakill notes or health drain or something

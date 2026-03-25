@@ -1,0 +1,100 @@
+Play Animation (Advanced).hx________PACKSEP________function onEvent(e)
+{
+    if (e.event.name == "Play Animation (Advanced)")
+    {
+        if (e.event.time + 100.0 < Conductor.songPosition)
+            return;
+
+        var eventParams:Array = e.event.params;
+        
+        if (strumLines.members[eventParams[0]] != null && strumLines.members[eventParams[0]].characters != null)
+        {
+            for (char in strumLines.members[eventParams[0]].characters)
+            {
+                if (char != null) char.playAnim(eventParams[1], eventParams[2], (eventParams[5] == "None") ? null : eventParams[5], eventParams[4], Std.parseInt(eventParams[3]));
+                char.extra["preventSingMissAnims"] = eventParams[6];
+            }
+        }
+    }
+    if (e.event.name == "Play Animation")
+    {
+        var eventParams:Array = e.event.params;
+        if (strumLines.members[eventParams[0]] != null && strumLines.members[eventParams[0]].characters != null)
+            for (char in strumLines.members[eventParams[0]].characters)
+                if (char != null) char.extra["preventSingMissAnims"] = "No";
+    }
+}
+
+function onNoteHit(event)
+{
+    switch (event.character.extra["preventSingMissAnims"])
+    {
+        case "Until this animation is finished":
+        {
+            if (!event.character.isAnimFinished())
+                event.preventAnim();
+            else
+                event.character.extra["preventSingMissAnims"] = "No";
+        }
+        case "Until another animation is fired by a Play Animation event": event.preventAnim();
+    }
+}
+
+function onPlayerMiss(event)
+{
+    switch (event.character.extra["preventSingMissAnims"])
+    {
+        case "Until this animation is finished":
+        {
+            if (!event.character.isAnimFinished())
+                event.preventAnim();
+            else
+                event.character.extra["preventSingMissAnims"] = "No";
+        }
+        case "Until another animation is fired by a Play Animation event": event.preventAnim();
+    }
+}
+________PACKSEP________{
+    "params": [
+        {
+            "name": "Character",
+            "type": "StrumLine",
+            "defaultValue": 0
+        },
+        {
+            "name": "Animation name",
+            "type": "String",
+            "defaultValue": "idle"
+        },
+        {
+            "name": "Is forced?",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        
+        {
+            "name": "Starting frame",
+            "type": "String",
+            "defaultValue": "0"
+        },
+
+        {
+            "name": "Reverse animation?",
+            "type": "Bool",
+            "defaultValue": false
+        },
+
+        {
+            "name": "Animation context",
+            "type": "DropDown('None', 'SING', 'DANCE', 'MISS', 'LOCK')",
+            "defaultValue": "None"
+        },
+
+        {
+            "name": "Prevent singing/missing animations from intercepting?",
+            "type": "DropDown('No', 'Until this animation is finished', 'Until another animation is fired by a Play Animation event')",
+            "defaultValue": "No"
+        }
+    ]
+}
+________PACKSEP________iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAABE0lEQVRIS+1UQQ6CMBAsKJx8iD8hMfEpXkz04MGDBzV69C8m/AB+4EM40Ujtbim0pW3AXtlkk2bpzuzMAoTMEeAA472QQRE7utnj+yKQFpJJpDYCG4CsIXFLOoooMhRIgIGw42KHtfi5Ivf9Dc+yxo8mTte//Mfg0/uMba0aIJJqBkQ2ZrysNCNYXROSpkJBvE60ua6bi6pIw7QpgAuavwCeJFDS52k+VABvhX02q1zeORcICmQ0h0pV4tyDbQ2sKAjjk2sJyjiB/D4YYxmmqVgFnLRksYcK9wFBac6ty2wDdjUvgfC9D0qjDtyLqjz0EgBgaExSYJKNGcBLUJZjFORekT6EUf8a1/sfau3cPzvQO/ADc5hirLSw8aQAAAAASUVORK5CYII=

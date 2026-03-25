@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="speaker.png">
+<SubTexture name="dl0000" x="0" y="0" width="27" height="54" frameX="0" frameY="0" frameWidth="26" frameHeight="52" />
+<SubTexture name="dl0001" x="0" y="0" width="27" height="54" frameX="0" frameY="0" frameWidth="26" frameHeight="52" />
+<SubTexture name="dl0002" x="0" y="0" width="27" height="54" frameX="0" frameY="0" frameWidth="26" frameHeight="52" />
+<SubTexture name="dl0003" x="0" y="0" width="27" height="54" frameX="0" frameY="0" frameWidth="26" frameHeight="52" />
+<SubTexture name="dr0000" x="27" y="0" width="28" height="53" frameX="0" frameY="-1" frameWidth="26" frameHeight="52" />
+<SubTexture name="dr0001" x="27" y="0" width="28" height="53" frameX="0" frameY="-1" frameWidth="26" frameHeight="52" />
+<SubTexture name="dr0002" x="27" y="0" width="28" height="53" frameX="0" frameY="-1" frameWidth="26" frameHeight="52" />
+<SubTexture name="dr0003" x="27" y="0" width="28" height="53" frameX="0" frameY="-1" frameWidth="26" frameHeight="52" />
+</TextureAtlas>

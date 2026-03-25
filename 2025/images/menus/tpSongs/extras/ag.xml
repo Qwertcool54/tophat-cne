@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ag.png">
+<SubTexture name="d0000" x="132" y="77" width="124" height="68" frameX="-7" frameY="-6" frameWidth="133" frameHeight="77" />
+<SubTexture name="s0000" x="132" y="0" width="131" height="76" frameX="-2" frameY="-1" frameWidth="133" frameHeight="77" />
+<SubTexture name="s0001" x="0" y="0" width="132" height="77" frameX="-1" frameY="-1" frameWidth="133" frameHeight="77" />
+<SubTexture name="s0002" x="0" y="77" width="132" height="76" frameX="-1" frameY="-1" frameWidth="133" frameHeight="77" />
+</TextureAtlas>
