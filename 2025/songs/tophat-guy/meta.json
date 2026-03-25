@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#A5004D",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "gf",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "tophat-guy",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 163
+}

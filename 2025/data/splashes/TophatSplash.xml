@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-splashes>
+<splashes sprite="game/splashes/TophatSplash" alpha="1" scale="2.5">
+	<strum id="0"> <!-- LEFT -->
+		<anim name="splash" anim="splash" fps="12" x="-31" y="-19" />
+		<anim name="splash" anim="splash" fps="12" x="0" y="0" />
+	</strum>
+	<strum id="1"> <!-- DOWN -->
+		<anim name="splash" anim="splash" fps="12" x="-22" y="0" />
+		<anim name="splash" anim="splash" fps="12" x="-13" y="0" />
+	</strum>
+	<strum id="2"> <!-- UP -->
+		<anim name="splash" anim="splash" fps="12" x="-22" y="-19" />
+		<anim name="splash" anim="splash" fps="12" x="0" y="0" />
+	</strum>
+	<strum id="3"> <!-- RIGHT -->
+		<anim name="splash" anim="splash" fps="12" x="0-13" y="-16" />
+		<anim name="splash" anim="splash" fps="12" x="0" y="0" />
+	</strum>
+</splashes>

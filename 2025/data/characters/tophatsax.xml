@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character antialiasing="false" camx="120" camy="180" icon="tophatcon" color="#A1A1A1">
+	<anim name="idle" anim="i" fps="10"/>
+	<anim name="singLEFT" anim="l" x="1" fps="20"/>
+	<anim name="singDOWN" anim="d" fps="20"/>
+	<anim name="singRIGHT" anim="r" fps="20"/>
+	<anim name="singUP" anim="u" fps="20"/>
+	<anim name="poop" anim="poop" x="5" y="52" fps="18"/>
+</character>

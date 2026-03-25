@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pm.png">
+<SubTexture name="hi0000" x="0" y="47" width="136" height="22" frameX="-2" frameY="-1" frameWidth="137" frameHeight="48" />
+<SubTexture name="hi0001" x="0" y="0" width="96" height="47" frameX="-23" frameY="-2" frameWidth="137" frameHeight="48" />
+<SubTexture name="hi0002" x="96" y="0" width="98" height="45" frameX="-22" frameY="-1" frameWidth="137" frameHeight="48" />
+<SubTexture name="d0000" x="96" y="0" width="98" height="45" frameX="-22" frameY="-1" frameWidth="137" frameHeight="48" />
+</TextureAtlas>

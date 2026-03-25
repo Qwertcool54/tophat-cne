@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="vng.png">
+<SubTexture name="d0000" x="93" y="86" width="84" height="73" frameX="-8" frameY="-10" frameWidth="96" frameHeight="86" />
+<SubTexture name="s0000" x="96" y="0" width="94" height="84" frameX="-2" frameY="-3" frameWidth="96" frameHeight="86" />
+<SubTexture name="s0001" x="0" y="86" width="93" height="84" frameX="-3" frameY="-3" frameWidth="96" frameHeight="86" />
+<SubTexture name="s0002" x="0" y="0" width="96" height="86" frameX="-1" frameY="-1" frameWidth="96" frameHeight="86" />
+</TextureAtlas>

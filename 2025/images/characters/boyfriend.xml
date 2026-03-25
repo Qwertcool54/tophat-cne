@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="boyfriend.png">
+<SubTexture name="i0000" x="345" y="468" width="69" height="77" frameX="-6" frameY="-14" frameWidth="94" frameHeight="91" />
+<SubTexture name="i0001" x="598" y="150" width="67" height="72" frameX="-8" frameY="-19" frameWidth="94" frameHeight="91" />
+<SubTexture name="i0002" x="598" y="0" width="67" height="75" frameX="-7" frameY="-16" frameWidth="94" frameHeight="91" />
+<SubTexture name="i0003" x="502" y="468" width="69" height="76" frameX="-6" frameY="-15" frameWidth="94" frameHeight="91" />
+<SubTexture name="l0000" x="76" y="559" width="73" height="72" frameX="0" frameY="-19" frameWidth="94" frameHeight="91" />
+<SubTexture name="l0001" x="319" y="559" width="68" height="71" frameX="-5" frameY="-20" frameWidth="94" frameHeight="91" />
+<SubTexture name="r0000" x="149" y="559" width="87" height="72" frameX="-9" frameY="-18" frameWidth="96" frameHeight="91" />
+<SubTexture name="r0001" x="236" y="559" width="83" height="72" frameX="-13" frameY="-19" frameWidth="96" frameHeight="91" />
+<SubTexture name="u0000" x="0" y="468" width="60" height="91" frameX="-23" frameY="0" frameWidth="94" frameHeight="91" />
+<SubTexture name="u0001" x="60" y="468" width="62" height="87" frameX="-23" frameY="-4" frameWidth="94" frameHeight="91" />
+<SubTexture name="d0000" x="122" y="468" width="75" height="87" frameX="-5" frameY="-4" frameWidth="94" frameHeight="91" />
+<SubTexture name="d0001" x="197" y="468" width="81" height="86" frameX="-5" frameY="-5" frameWidth="94" frameHeight="91" />
+<SubTexture name="m0000" x="278" y="468" width="67" height="85" frameX="-7" frameY="-6" frameWidth="94" frameHeight="91" />
+<SubTexture name="p10000" x="0" y="0" width="125" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p10001" x="367" y="120" width="118" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p20000" x="125" y="0" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p20001" x="367" y="228" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p30000" x="0" y="120" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p30001" x="0" y="360" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p40000" x="121" y="120" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p40001" x="110" y="360" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p50000" x="246" y="0" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p50001" x="220" y="360" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p60000" x="246" y="120" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p60001" x="330" y="360" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p70000" x="0" y="240" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p70001" x="488" y="0" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p80000" x="121" y="240" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p80001" x="488" y="108" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p90000" x="242" y="240" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p90001" x="488" y="216" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="p100000" x="367" y="0" width="121" height="120" frameX="0" frameY="0" frameWidth="123" frameHeight="118" />
+<SubTexture name="p100001" x="488" y="324" width="110" height="108" frameX="-6" frameY="-8" frameWidth="123" frameHeight="118" />
+<SubTexture name="gospin0000" x="598" y="75" width="66" height="75" frameX="-9" frameY="-6" frameWidth="90" frameHeight="80" />
+<SubTexture name="gospin0001" x="598" y="222" width="59" height="71" frameX="-25" frameY="-11" frameWidth="90" frameHeight="80" />
+<SubTexture name="gospin0002" x="466" y="559" width="83" height="58" frameX="0" frameY="-17" frameWidth="90" frameHeight="80" />
+<SubTexture name="gospin0003" x="0" y="559" width="76" height="73" frameX="-6" frameY="-4" frameWidth="90" frameHeight="80" />
+<SubTexture name="gospin0004" x="414" y="468" width="88" height="77" frameX="-4" frameY="0" frameWidth="90" frameHeight="80" />
+<SubTexture name="gospin0005" x="387" y="559" width="79" height="71" frameX="-8" frameY="-7" frameWidth="90" frameHeight="80" />
+<SubTexture name="spin0000" x="0" y="559" width="76" height="73" frameX="-6" frameY="-4" frameWidth="90" frameHeight="80" />
+<SubTexture name="spin0001" x="414" y="468" width="88" height="77" frameX="-4" frameY="0" frameWidth="90" frameHeight="80" />
+<SubTexture name="spin0002" x="387" y="559" width="79" height="71" frameX="-8" frameY="-7" frameWidth="90" frameHeight="80" />
+</TextureAtlas>

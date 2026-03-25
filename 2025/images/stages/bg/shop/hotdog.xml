@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hotdog.png">
+<SubTexture name="go0000" x="75" y="0" width="78" height="54" frameX="0" frameY="-3" frameWidth="76" frameHeight="55" />
+<SubTexture name="go0001" x="0" y="0" width="75" height="57" frameX="-1" frameY="0" frameWidth="76" frameHeight="55" />
+</TextureAtlas>
