@@ -1,9 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="shop/shopguy" icon="face" color="#633838" antialiasing="false" holdTime="6.1">
-	<anim name="idle" anim="idle" fps="8"/>
-	<anim name="singLEFT" anim="l" fps="8"/>
-	<anim name="singDOWN" anim="d" fps="8"/>
-	<anim name="singUP" anim="u" fps="8"/>
-	<anim name="singRIGHT" anim="r" fps="8"/>
+<character antialiasing="false" icon="face" color="#A1A1A1">
+	<anim name="singLEFT" anim="l" fps="10"/>
+	<anim name="singDOWN" anim="d" fps="10"/>
+	<anim name="singUP" anim="u" fps="10"/>
+	<anim name="singRIGHT" anim="r" fps="10"/>
+	<anim name="idle" anim="i" fps="8" loop="true"/>
 </character>

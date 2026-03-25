@@ -1,7 +1,0 @@
-<!DOCTYPE codename-engine-stage>
-<stage folder="stages/bg/" name="thg" zoom="1.2">
-	<sprite antialiasing="false" x="-25" sprite="topbg" y="-150" type="none" name="bg"/>
-	<girlfriend/>
-	<dad x="400" y="75"/>
-	<boyfriend/>
-</stage>

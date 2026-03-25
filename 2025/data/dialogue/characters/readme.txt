@@ -1,1 +1,0 @@
-Character .xml and .hx files go here (not their sprites)

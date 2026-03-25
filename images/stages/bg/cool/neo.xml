@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
--->
-<TextureAtlas imagePath="neo.png" width="144" height="37">
-	<SubTexture name="neo1" x="77" y="0" width="67" height="36" frameX="-2" frameY="-3" frameWidth="72" frameHeight="40"/>
-	<SubTexture name="neo2" x="0" y="0" width="67" height="37" frameX="-2" frameY="-3" frameWidth="72" frameHeight="40"/>
-</TextureAtlas>

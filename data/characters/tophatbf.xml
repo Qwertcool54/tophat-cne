@@ -1,17 +1,32 @@
 <!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="tophat/bhb" icon="face" color="#3e3f73" flipX="true" antialiasing="false" holdTime="6.1" isPlayer="true">
-	<anim name="singRIGHTmiss" anim="m" x="-6" y="0" indices="0,0,0,0,0,0,0,0"/>
-	<anim name="singLEFTmiss" anim="m" x="-6" y="0" indices="0,0,0,0,0,0,0,0"/>
-	<anim name="singDOWNmiss" anim="m" x="-6" y="0" indices="0,0,0,0,0,0,0,0"/>
-	<anim name="singUPmiss" anim="m" x="-6" y="0" indices="0,0,0,0,0,0,0,0"/>
-	<anim name="idle" anim="idle" x="-4" y="0" fps="18"/>
-	<anim name="singLEFT" anim="l" x="-2" y="0" fps="18"/>
-	<anim name="singDOWN" anim="d" x="-5" y="0" fps="18"/>
-	<anim name="singUP" anim="u" x="-5" y="0" fps="18"/>
-	<anim name="singRIGHT" anim="r" x="-5" y="-1" fps="18"/>
-	<anim name="singLEFT-alt" anim="al" x="-1" y="8" fps="18"/>
-	<anim name="singDOWN-alt" anim="ad" x="-6" y="7" fps="18"/>
-	<anim name="singUP-alt" anim="au" x="0" y="10" fps="18"/>
-	<anim name="singRIGHT-alt" anim="ar" x="1" y="10" fps="18"/>
+<character sprite="boyfriend" antialiasing="false" flipX="true" isPlayer="true" icon="bfcon" color="#A1A1A1">
+	<anim name="singLEFT" anim="l" fps="10"/>
+	<anim name="singLEFT-alt" anim="l" fps="10"/>
+	<anim name="singDOWN" anim="d" fps="10"/>
+	<anim name="singDOWN-alt" anim="d" fps="10"/>
+	<anim name="singUP" anim="u" fps="10"/>
+	<anim name="singUP-alt" anim="u" fps="10"/>
+	<anim name="singRIGHT" anim="r" fps="10"/>
+	<anim name="singRIGHT-alt" anim="r" fps="10"/>
+	<anim name="singLEFTmiss" anim="m" fps="4"/>
+	<anim name="singRIGHTmiss" anim="m" fps="4"/>
+	<anim name="singUPmiss" anim="m" fps="4"/>
+	<anim name="singDOWNmiss" anim="m" fps="4"/>
+	<anim name="idle" anim="i" fps="8"/>
+	<anim name="singLEFT-altmiss" anim="m" fps="10"/>
+	<anim name="singRIGHT-altmiss" anim="m" fps="10"/>
+	<anim name="singDOWN-altmiss" anim="m" fps="10"/>
+	<anim name="singUP-altmiss" anim="m" fps="10"/>
+	<anim name="p1" anim="p1" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p2" anim="p2" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p3" anim="p3" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p4" anim="p4" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p5" anim="p5" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p6" anim="p6" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p7" anim="p7" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p8" anim="p8" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p9" anim="p9" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="p10" anim="p10" x="12" y="16" fps="8" indices="0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"/>
+	<anim name="gospin" anim="gospin" fps="8"/>
+	<anim name="spin" anim="spin" fps="8" loop="true"/>
 </character>

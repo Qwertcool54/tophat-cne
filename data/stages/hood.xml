@@ -1,6 +1,0 @@
-<!DOCTYPE codename-engine-stage>
-<stage folder="stages/bg/hood/" name="hood" zoom="0.665">
-	<girlfriend/>
-	<dad camxoffset="200" x="-400" y="400"/>
-	<boyfriend x="110" y="400"/>
-</stage>

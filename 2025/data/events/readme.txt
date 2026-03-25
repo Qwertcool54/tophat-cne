@@ -1,1 +1,0 @@
-Event files .json and .xml (or .pack if you're feeling mischevious and nefarious) go here

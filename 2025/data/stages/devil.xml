@@ -1,7 +1,0 @@
-<!DOCTYPE codename-engine-stage>
-<stage folder="stages/bg/devil/" name="devil" zoom="0.6">
-	<sprite type="none" sprite="bg" name="bg"/>
-	<girlfriend/>
-	<dad camxoffset="-100" x="300" camyoffset="-30" y="340"/>
-	<boyfriend x="500" y="340"/>
-</stage>

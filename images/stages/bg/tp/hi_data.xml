@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="hi data.png">
-<SubTexture name="crowd0000" x="0" y="0" width="352" height="86" frameX="0" frameY="-1" frameWidth="350" frameHeight="85" />
-<SubTexture name="crowd0001" x="0" y="86" width="352" height="83" frameX="0" frameY="-4" frameWidth="350" frameHeight="85" />
-<SubTexture name="crowd0002" x="0" y="169" width="352" height="79" frameX="0" frameY="-8" frameWidth="350" frameHeight="85" />
-</TextureAtlas>

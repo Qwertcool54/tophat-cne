@@ -1,1 +1,0 @@
-Note Splash .xml files go here (not the sprites)

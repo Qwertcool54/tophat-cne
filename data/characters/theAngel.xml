@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="angel/angel" icon="face" color="#a1a1a1" antialiasing="false" camx="-30" camy="-50" scale="0.8">
-	<anim name="idle" anim="i"/>
-	<anim name="singLEFT" anim="l" fps="10"/>
-	<anim name="singDOWN" anim="d" fps="10"/>
-	<anim name="singUP" anim="u" fps="10"/>
-	<anim name="singRIGHT" anim="r" fps="10"/>
-</character>

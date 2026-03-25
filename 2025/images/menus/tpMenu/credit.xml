@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="credit.png">
-<SubTexture name="d0000" x="55" y="51" width="49" height="46" frameX="-6" frameY="-3" frameWidth="58" frameHeight="51" />
-<SubTexture name="s0000" x="0" y="51" width="55" height="50" frameX="-3" frameY="-1" frameWidth="58" frameHeight="51" />
-<SubTexture name="s0001" x="0" y="0" width="58" height="51" frameX="-1" frameY="-1" frameWidth="58" frameHeight="51" />
-<SubTexture name="s0002" x="58" y="0" width="55" height="51" frameX="-3" frameY="-1" frameWidth="58" frameHeight="51" />
-</TextureAtlas>

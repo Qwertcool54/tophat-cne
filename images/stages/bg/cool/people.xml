@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
--->
-<TextureAtlas imagePath="people.png" width="490" height="86">
-	<SubTexture name="people.1" x="250" y="0" width="240" height="85" frameX="-12" frameY="-63" frameWidth="383" frameHeight="206"/>
-	<SubTexture name="people.2" x="0" y="0" width="240" height="86" frameX="-12" frameY="-62" frameWidth="383" frameHeight="206"/>
-</TextureAtlas>

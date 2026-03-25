@@ -1,1 +1,0 @@
-characters for the story menu go here (the xml files, not sprites)

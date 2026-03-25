@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="3" y="8" sprite="tophat/tophatsax" antialiasing="false" camx="100" camy="-95" icon="face" color="#A1B5E3" holdTime="6.1">
-	<anim name="idle" anim="i" x="-1"/>
-	<anim name="singLEFT" anim="l" fps="21"/>
-	<anim name="singDOWN" anim="d" fps="21"/>
-	<anim name="singUP" anim="u" fps="21"/>
-	<anim name="singRIGHT" anim="r" fps="21"/>
-	<anim name="trans" anim="trans" x="-47" y="-3"/>
-</character>

@@ -9,29 +9,22 @@ june
 headdzo
 rundown
 terdle
-lat
-paint
 funkypop
 dani
 ruby
 novasaur
 fidy
-(charter)
 suitman
 lemon
 riko
 yumii
 greg
-croccy poo
-
+croccy poo 
 
 special thanks:
-ihaveashuckslolz - maked 4:3 script
+usb_port_3 - maked 4:3 script
 itsljcool - maked "change character" event (LJ Events-Pack CNE)
 fourlion4l - extended play animation event
-sillyborja and SenTCM - targetOffset camera follow script
-dustin' team - some code for 2024's HUD
-(some deleted user) - middlescroll script (that used in 2024 hud)
-itsbobby.2 - creator of psych hud
-Claude (AI) - assisted with most code
-vs hyp remastered - the mod where I got the FPS counter from
+sillyborja - targetOffset camera follow script
+Claude (AI)- assisted with code
+

@@ -1,6 +1,8 @@
 import funkin.backend.utils.ShaderResizeFix;
 import Sys;
 import openfl.system.Capabilities;
+import funkin.backend.system.framerate.Framerate;
+import openfl.text.TextFormat;
 
 function new() {
     windowShit(1024, 768, 0.9);
@@ -30,4 +32,3 @@ public static function windowShit(newWidth:Int, newHeight:Int, scale:Float = 0.9
     window.y = Capabilities.screenResolutionY/2 - window.height/2;
 }
 
-importScript("data/scripts/fps");
